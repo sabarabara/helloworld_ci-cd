@@ -1,0 +1,10 @@
+name: "Hello World CI/CD"
+
+on: [push]
+
+jobs:
+  sample:
+    name: Hello Worlsd CI/CD Job
+    runs-on: ubuntu-latest
+    steps:
+     - echo "Hello World CI/CD Job is running"
